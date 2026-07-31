@@ -1,0 +1,50 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Zhou J. developer portfolio</title>
+  <desc id="description">Python automation, data systems, integrations, and practical business tools.</desc>
+  <defs>
+    <linearGradient id="background" x1="40" y1="20" x2="1220" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1C31"/>
+      <stop offset="1" stop-color="#10243B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="92" y1="76" x2="448" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35D7E4"/>
+      <stop offset="1" stop-color="#57F2B2"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#B7D8F5" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="24" fill="url(#background)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1114" cy="66" r="116" fill="#22D3EE" fill-opacity="0.07" filter="url(#glow)"/>
+  <circle cx="870" cy="286" r="92" fill="#34D399" fill-opacity="0.06" filter="url(#glow)"/>
+
+  <rect x="72" y="67" width="6" height="186" rx="3" fill="url(#accent)"/>
+  <text x="110" y="138" fill="#F4F9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="5">ZHOU J.</text>
+  <text x="112" y="185" fill="#8FAEC8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500" letter-spacing="1.5">PYTHON AUTOMATION  /  DATA SYSTEMS  /  INTEGRATIONS</text>
+  <text x="112" y="224" fill="#C8DAEA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Small, verifiable systems built for reliable operations.</text>
+
+  <path d="M750 161H793" stroke="#35D7E4" stroke-width="2" stroke-dasharray="5 7"/>
+  <path d="M934 161H977" stroke="#57F2B2" stroke-width="2" stroke-dasharray="5 7"/>
+  <circle cx="772" cy="161" r="4" fill="#35D7E4"/>
+  <circle cx="956" cy="161" r="4" fill="#57F2B2"/>
+
+  <g>
+    <rect x="626" y="112" width="124" height="98" rx="16" fill="#102A43" stroke="#29506D"/>
+    <rect x="793" y="112" width="141" height="98" rx="16" fill="#102A43" stroke="#2D6372"/>
+    <rect x="977" y="112" width="153" height="98" rx="16" fill="#102A43" stroke="#2B6B5C"/>
+    <circle cx="688" cy="142" r="12" fill="#35D7E4" fill-opacity="0.16" stroke="#35D7E4"/>
+    <circle cx="864" cy="142" r="12" fill="#35D7E4" fill-opacity="0.16" stroke="#35D7E4"/>
+    <circle cx="1053" cy="142" r="12" fill="#57F2B2" fill-opacity="0.16" stroke="#57F2B2"/>
+    <text x="649" y="181" fill="#DCEAF5" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="1">INGEST</text>
+    <text x="817" y="181" fill="#DCEAF5" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="1">VALIDATE</text>
+    <text x="1001" y="181" fill="#DCEAF5" font-family="JetBrains Mono, Consolas, monospace" font-size="15" font-weight="600" letter-spacing="1">AUTOMATE</text>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="23.5" stroke="#31506B" stroke-opacity="0.65"/>
+</svg>

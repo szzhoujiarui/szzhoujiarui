@@ -1,51 +1,79 @@
-# Zhou J.
+<p align="center">
+  <img src="./assets/profile-header.svg" width="100%" alt="Zhou J. - Python automation, data systems, and integrations" />
+</p>
 
-Python automation, data workflows, integrations, and practical full-stack tools.
+<p align="center">
+  <a href="https://github.com/szzhoujiarui/python-data-orchestration-lab"><img alt="Python" src="https://img.shields.io/badge/Python-0B1C31?style=flat-square&logo=python&logoColor=35D7E4" /></a>
+  <a href="https://github.com/szzhoujiarui/webhookops-reliability-console"><img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-0B1C31?style=flat-square&logo=fastapi&logoColor=57F2B2" /></a>
+  <a href="https://github.com/szzhoujiarui/lead-ops-automation"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0B1C31?style=flat-square&logo=postgresql&logoColor=35D7E4" /></a>
+  <a href="https://github.com/szzhoujiarui/lead-ops-automation"><img alt="n8n" src="https://img.shields.io/badge/n8n-0B1C31?style=flat-square&logo=n8n&logoColor=57F2B2" /></a>
+  <a href="https://github.com/szzhoujiarui/figma-to-wordpress-business-showcase"><img alt="WordPress" src="https://img.shields.io/badge/WordPress-0B1C31?style=flat-square&logo=wordpress&logoColor=35D7E4" /></a>
+  <a href="https://github.com/szzhoujiarui/opencv-technical-drawing-vectorizer"><img alt="OpenCV" src="https://img.shields.io/badge/OpenCV-0B1C31?style=flat-square&logo=opencv&logoColor=57F2B2" /></a>
+</p>
 
-I build small, verifiable systems for structured data processing, workflow automation, API integrations, and operational tooling. My work emphasizes clear schemas, repeatable validation, reliable retries, and useful handoff documentation.
+<p align="center">
+  I turn messy operational data and fragile manual processes into structured, testable workflows.
+</p>
 
-## Focus Areas
+## What I Build
 
-- Python data orchestration, normalization, deduplication, and export workflows
-- Google Sheets, CSV, SQLite, PostgreSQL, and structured business data
-- FastAPI, REST integrations, webhook verification, idempotency, retries, and audit trails
-- n8n, Docker Compose, and operational automation
-- Excel/WPS automation with VBA, pandas, xlwings, and COM
-- WordPress Gutenberg themes, PHP plugins, forms, and webhook workflows
-- React, TypeScript, Next.js, and interactive web tools
-- OpenCV preprocessing, geometry detection, and vector export
+| Data systems | Reliable integrations | Business tools |
+|---|---|---|
+| Normalization, multi-key deduplication, source tracking, and structured exports | Webhook verification, idempotency, retries, dead-letter handling, replay, and audit trails | Excel automation, WordPress workflows, dashboards, and focused full-stack interfaces |
+| `Python` `Pydantic` `SQLite` `PostgreSQL` `Google Sheets` | `FastAPI` `REST` `n8n` `Docker Compose` | `VBA` `pandas` `PHP` `React` `Next.js` |
 
-## Selected Projects
+## Featured Work
 
-### Data and Automation
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/szzhoujiarui/python-data-orchestration-lab">Data Orchestration Lab</a></h3>
+      <p>Schema-driven normalization, multi-key deduplication, record merging, SQLite upserts, CSV output, and optional Google Sheets export.</p>
+      <p><code>Python</code> <code>Pydantic</code> <code>SQLite</code> <code>Google Sheets</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/szzhoujiarui/webhookops-reliability-console">WebhookOps Console</a></h3>
+      <p>Webhook reliability console with raw-byte HMAC verification, idempotency, retries, dead-letter handling, replay, and audit records.</p>
+      <p><code>FastAPI</code> <code>React</code> <code>TypeScript</code> <code>SQLite</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/szzhoujiarui/lead-ops-automation">Lead Operations Automation</a></h3>
+      <p>Operational workflows with durable task state, retries, leases, fencing, terminal failure handling, and manual replay.</p>
+      <p><code>n8n</code> <code>PostgreSQL</code> <code>Node.js</code> <code>Docker Compose</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/szzhoujiarui/xlsm-demo">Excel Automation Dashboard</a></h3>
+      <p>Macro-enabled workbook automation with structured tables, PivotTables, PivotCharts, dashboards, and Python-driven workflows.</p>
+      <p><code>VBA</code> <code>Python</code> <code>pandas</code> <code>xlwings</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/szzhoujiarui/figma-to-wordpress-business-showcase">Gutenberg Business Website</a></h3>
+      <p>Custom bilingual block theme with reusable sections, case-study content, consultation forms, and reproducible setup.</p>
+      <p><code>WordPress</code> <code>PHP</code> <code>Gutenberg</code> <code>WP-CLI</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/szzhoujiarui/opencv-technical-drawing-vectorizer">Drawing Vectorization Pipeline</a></h3>
+      <p>Technical drawing preprocessing, geometry detection, normalization, and structured JSON, SVG, and DXF export.</p>
+      <p><code>Python</code> <code>OpenCV</code> <code>SVG</code> <code>DXF</code></p>
+    </td>
+  </tr>
+</table>
 
-- [python-data-orchestration-lab](https://github.com/szzhoujiarui/python-data-orchestration-lab) - Pydantic-based normalization, multi-key deduplication, SQLite upserts, CSV output, and optional Google Sheets export.
-- [lead-ops-automation](https://github.com/szzhoujiarui/lead-ops-automation) - n8n, PostgreSQL, and Docker Compose workflows with retries, leases, fencing, terminal failure states, and manual replay.
-- [xlsm-demo](https://github.com/szzhoujiarui/xlsm-demo) - Excel/WPS workbook automation with VBA, Python, pandas, xlwings, COM, PivotTables, PivotCharts, and dashboards.
+## More Projects
 
-### APIs and Reliability
+- [deskflow-studio](https://github.com/szzhoujiarui/deskflow-studio) - Interactive 3D product configuration and quotation workflow with Next.js and React Three Fiber.
+- [wp-service-quote-manager](https://github.com/szzhoujiarui/wp-service-quote-manager) - WordPress quote-management plugin prototype with admin states, CSV export, scheduled retries, and HMAC webhooks.
 
-- [webhookops-reliability-console](https://github.com/szzhoujiarui/webhookops-reliability-console) - FastAPI, SQLite, React, and TypeScript console with raw-byte HMAC verification, idempotency, retries, dead-letter handling, replay, and audit records.
+## Engineering Approach
 
-### WordPress and Business Websites
+1. Start with explicit inputs, outputs, constraints, and acceptance criteria.
+2. Keep integrations behind replaceable adapters and make failure states observable.
+3. Ship setup notes, verification commands, assumptions, and honest implementation boundaries.
 
-- [figma-to-wordpress-business-showcase](https://github.com/szzhoujiarui/figma-to-wordpress-business-showcase) - Custom Gutenberg block theme with bilingual routing, reusable sections, case-study content, consultation forms, Docker Compose, and idempotent WP-CLI setup.
-- [wp-service-quote-manager](https://github.com/szzhoujiarui/wp-service-quote-manager) - WordPress service-quote plugin prototype with shortcode forms, admin workflow states, CSV export, WP-Cron retries, and HMAC webhooks.
-
-### Computer Vision and Interactive Web
-
-- [opencv-technical-drawing-vectorizer](https://github.com/szzhoujiarui/opencv-technical-drawing-vectorizer) - Python/OpenCV pipeline for preprocessing, deskewing, perspective correction, line and arc detection, normalization, and JSON/SVG/DXF export.
-- [deskflow-studio](https://github.com/szzhoujiarui/deskflow-studio) - Next.js, React Three Fiber, Prisma, and SQLite product configuration and quotation workflow with server-side pricing and configuration snapshots.
-
-## Working Style
-
-- Start with a small, testable workflow and explicit acceptance criteria.
-- Keep external integrations behind replaceable adapters.
-- Track source URLs, validation results, and transformation decisions for data workflows.
-- Document setup, verification commands, assumptions, and known boundaries.
-
-## Portfolio
-
-Most projects are personal demos or technical prototypes. Project READMEs describe their scope, data sources, verification status, and integration boundaries.
-
-- [Project evidence and implementation examples](https://github.com/szzhoujiarui)
+<p align="center">
+  <sub>Projects are personal demos or technical prototypes unless a repository states otherwise. Each README documents scope, verification status, and integration boundaries.</sub>
+</p>
