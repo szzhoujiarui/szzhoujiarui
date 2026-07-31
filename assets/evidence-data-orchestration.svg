@@ -1,0 +1,11 @@
+<svg width="1280" height="250" viewBox="0 0 1280 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Data Orchestration Lab</title><desc id="description">A schema-driven pipeline for normalization, deduplication, storage, and export.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1280" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#07111F"/><stop offset="1" stop-color="#10243B"/></linearGradient><linearGradient id="accent" x1="700" y1="0" x2="1160" y2="0"><stop stop-color="#35D7E4"/><stop offset="1" stop-color="#57F2B2"/></linearGradient></defs>
+  <rect width="1280" height="250" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="1278" height="248" rx="21" stroke="#31506B"/>
+  <text x="54" y="56" fill="#57F2B2" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="600" letter-spacing="2">FEATURED SYSTEM / 01</text>
+  <text x="54" y="112" fill="#F4F9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">Data Orchestration Lab</text>
+  <text x="54" y="154" fill="#A9C1D6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Turn heterogeneous records into traceable master data.</text>
+  <text x="54" y="202" fill="#6F92AD" font-family="Consolas, Menlo, monospace" font-size="16">PYTHON  /  PYDANTIC  /  SQLITE  /  GOOGLE SHEETS</text>
+  <path d="M718 125H1162" stroke="url(#accent)" stroke-width="2"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="middle"><rect x="684" y="88" width="116" height="74" rx="14" fill="#102A43" stroke="#2D6372"/><text x="742" y="131" fill="#DCEAF5">NORMALIZE</text><rect x="824" y="88" width="108" height="74" rx="14" fill="#102A43" stroke="#2D6372"/><text x="878" y="131" fill="#DCEAF5">DEDUPE</text><rect x="956" y="88" width="96" height="74" rx="14" fill="#102A43" stroke="#2B6B5C"/><text x="1004" y="131" fill="#DCEAF5">UPSERT</text><rect x="1076" y="88" width="118" height="74" rx="14" fill="#102A43" stroke="#2B6B5C"/><text x="1135" y="131" fill="#DCEAF5">EXPORT</text></g>
+</svg>

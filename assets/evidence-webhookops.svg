@@ -1,0 +1,10 @@
+<svg width="1280" height="250" viewBox="0 0 1280 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">WebhookOps Reliability Console</title><desc id="description">A reliable webhook pipeline with verification, retries, dead-letter handling, replay, and audit records.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1280" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#07111F"/><stop offset="1" stop-color="#10243B"/></linearGradient></defs>
+  <rect width="1280" height="250" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="1278" height="248" rx="21" stroke="#31506B"/>
+  <text x="54" y="56" fill="#35D7E4" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="600" letter-spacing="2">FEATURED SYSTEM / 02</text>
+  <text x="54" y="112" fill="#F4F9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">WebhookOps Reliability Console</text>
+  <text x="54" y="154" fill="#A9C1D6" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Make asynchronous delivery failures visible and recoverable.</text>
+  <text x="54" y="202" fill="#6F92AD" font-family="Consolas, Menlo, monospace" font-size="16">FASTAPI  /  REACT  /  TYPESCRIPT  /  SQLITE</text>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif"><rect x="760" y="46" width="420" height="158" rx="18" fill="#0C2035" stroke="#2D526C"/><text x="792" y="80" fill="#7898B1" font-family="Consolas, Menlo, monospace" font-size="14">EVENT STATE</text><circle cx="798" cy="112" r="6" fill="#35D7E4"/><text x="820" y="118" fill="#DCEAF5" font-size="18" font-weight="600">HMAC verified + idempotent</text><circle cx="798" cy="150" r="6" fill="#35D7E4"/><text x="820" y="156" fill="#DCEAF5" font-size="18" font-weight="600">Retry policy + dead letter</text><circle cx="798" cy="188" r="6" fill="#57F2B2"/><text x="820" y="194" fill="#DCEAF5" font-size="18" font-weight="600">Manual replay + audit trail</text></g>
+</svg>
