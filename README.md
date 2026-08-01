@@ -3,53 +3,53 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Zhou J. - Python automation, data systems, and integrations" />
+  <img src="./assets/profile-header.svg?v=20260801-3" width="1280" alt="Zhou J. - Python automation, data systems, and integrations" />
 </p>
 
 <p align="center">
-  <img src="./assets/capability-strip.svg" width="100%" alt="Core capabilities: data systems, reliable integrations, and business tools" />
+  <strong>Reliable systems for messy data, fragile integrations, and operational complexity.</strong><br />
+  <sub>Python engineering · observable workflows · open-source collaboration</sub>
 </p>
 
+## Open Source · 开源协作
+
+Active contributor to [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), working across provider integration, agent runtime stability, and toolset performance.
+
+- **[#76072](https://github.com/NousResearch/hermes-agent/pull/76072) · Toolset listing performance**<br />
+  Reuses request-local subscription snapshots across sibling API paths. `Under review`
+- **[#75561](https://github.com/NousResearch/hermes-agent/pull/75561) · Bedrock Mantle session stability**<br />
+  Stabilizes multi-turn tool sessions across provider boundaries. `Under review`
+- **[#75480](https://github.com/NousResearch/hermes-agent/pull/75480) · Anthropic transport integration**<br />
+  Wires ProviderProfile hooks into the transport lifecycle. `Under review`
+
+## Selected Work · 代表作品
+
+### 01 / [WebhookOps Reliability Console](https://github.com/szzhoujiarui/webhookops-reliability-console)
+
+FastAPI and React system for raw-byte HMAC verification, idempotent delivery, retries, dead-letter handling, replay, and audit trails.
+
+`Python` · `FastAPI` · `React` · `PostgreSQL` · `Docker`
+
+### 02 / [Python Data Orchestration Lab](https://github.com/szzhoujiarui/python-data-orchestration-lab)
+
+Schema-driven normalization, multi-key deduplication, record merging, SQLite upserts, structured exports, and automated tests.
+
+`Python` · `Pydantic` · `SQLite` · `pandas` · `pytest`
+
+### 03 / [Lead Operations Automation](https://github.com/szzhoujiarui/lead-ops-automation)
+
+Durable workflow processing with leases, fencing, retryable and terminal failure paths, manual replay, and Playwright acceptance evidence.
+
+`n8n` · `PostgreSQL` · `Docker Compose` · `Playwright`
+
+**Archive:** [Drawing Vectorization](https://github.com/szzhoujiarui/opencv-technical-drawing-vectorizer) · [Deskflow Studio](https://github.com/szzhoujiarui/deskflow-studio) · [Excel Automation](https://github.com/szzhoujiarui/xlsm-demo) · [WordPress Quote Manager](https://github.com/szzhoujiarui/wp-service-quote-manager)
+
+## Engineering Practice · 工程方法
+
+- Define inputs, outputs, constraints, and acceptance criteria before implementation.
+- Keep integrations replaceable and make failure states observable and recoverable.
+- Ship verification commands, tests, assumptions, and honest implementation boundaries.
+
 <p align="center">
-  <strong>I turn messy operational data and fragile manual processes into structured, testable workflows.</strong>
-</p>
-
-## Featured Systems
-
-<a href="https://github.com/szzhoujiarui/python-data-orchestration-lab"><img src="./assets/evidence-data-orchestration.svg" width="100%" alt="Data Orchestration Lab: normalize, deduplicate, upsert, and export structured records" /></a>
-
-**Evidence:** schema-driven normalization, multi-key deduplication, record merging, SQLite upserts, CSV output, optional Google Sheets export, and automated tests.
-
-<a href="https://github.com/szzhoujiarui/webhookops-reliability-console"><img src="./assets/evidence-webhookops.svg" width="100%" alt="WebhookOps Reliability Console: verify, retry, dead-letter, replay, and audit webhook events" /></a>
-
-**Evidence:** raw-byte HMAC verification, idempotency, retry policy, dead-letter handling, manual replay, audit records, and backend/frontend tests.
-
-<a href="https://github.com/szzhoujiarui/lead-ops-automation"><img src="./assets/evidence-lead-ops.svg" width="100%" alt="Lead Operations Automation: qualify, persist, deliver, retry, and replay lead workflows" /></a>
-
-**Evidence:** durable task state, leases, fencing, retryable and terminal failure paths, manual replay, Docker Compose, and Playwright acceptance evidence.
-
-<!-- OPEN_SOURCE_CONTRIBUTIONS_SLOT
-Add this section after verified upstream contribution evidence exists.
-Required fields per entry: upstream repository, pull request URL, contribution summary, role, and verified status.
-Preferred evidence strength: merged PR, maintainer adoption, or complete reviewable PR.
--->
-
-## More Builds
-
-| Project | Verified focus |
-|---|---|
-| [Excel Automation Dashboard](https://github.com/szzhoujiarui/xlsm-demo) | VBA and Python workbook automation, PivotTables, PivotCharts, dashboards, and COM workflows |
-| [Gutenberg Business Website](https://github.com/szzhoujiarui/figma-to-wordpress-business-showcase) | Custom bilingual block theme, reusable sections, forms, Docker Compose, and WP-CLI setup |
-| [Drawing Vectorization Pipeline](https://github.com/szzhoujiarui/opencv-technical-drawing-vectorizer) | OpenCV preprocessing, geometry detection, normalization, and JSON, SVG, and DXF export |
-| [Deskflow Studio](https://github.com/szzhoujiarui/deskflow-studio) | Interactive 3D product configuration, server-side pricing, and quotation snapshots |
-| [WordPress Quote Manager](https://github.com/szzhoujiarui/wp-service-quote-manager) | Quote workflow states, CSV export, scheduled retries, and HMAC webhooks |
-
-## How I Engineer
-
-1. Start with explicit inputs, outputs, constraints, and acceptance criteria.
-2. Keep integrations behind replaceable adapters and make failure states observable.
-3. Ship setup notes, verification commands, assumptions, and honest implementation boundaries.
-
-<p align="center">
-  <sub>Projects are personal demos or technical prototypes unless a repository states otherwise. Each repository documents scope, verification status, and integration boundaries.</sub>
+  <sub>中国开发者 / OPEN-SOURCE CONTRIBUTOR / ZHOU J.</sub>
 </p>

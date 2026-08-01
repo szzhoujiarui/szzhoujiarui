@@ -1,46 +1,44 @@
 <svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Zhou J. developer portfolio</title>
-  <desc id="description">Python automation, data systems, integrations, and practical business tools.</desc>
-  <defs>
-    <linearGradient id="background" x1="40" y1="20" x2="1220" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="0.55" stop-color="#0B1C31"/>
-      <stop offset="1" stop-color="#10243B"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="92" y1="76" x2="448" y2="236" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#35D7E4"/>
-      <stop offset="1" stop-color="#57F2B2"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#B7D8F5" stroke-opacity="0.055"/>
-    </pattern>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#35D7E4"/><stop offset="1" stop-color="#57F2B2"/></linearGradient>
-  </defs>
+  <title id="title">Zhou J. developer profile</title>
+  <desc id="description">A restrained editorial profile for a Chinese open-source developer focused on reliable systems.</desc>
+  <style>
+    .surface { fill: #F8F8F5; }
+    .ink { fill: #151716; }
+    .ink-soft { fill: #555A56; }
+    .rule { stroke: #CFD2CD; }
+    .accent { fill: #B43B2E; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #0D1110; }
+      .ink { fill: #F1F1EC; }
+      .ink-soft { fill: #A7ACA7; }
+      .rule { stroke: #353A36; }
+      .accent { fill: #D65B49; }
+    }
+  </style>
 
-  <rect width="1280" height="360" rx="24" fill="url(#background)"/>
-  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
-  <circle cx="1150" cy="36" r="150" fill="#35D7E4" fill-opacity="0.045"/>
-  <circle cx="784" cy="348" r="120" fill="#57F2B2" fill-opacity="0.035"/>
+  <rect class="surface" width="1280" height="360"/>
+  <rect class="accent" x="64" y="52" width="4" height="256"/>
+  <path class="rule" d="M92 52H1216M92 308H1216M770 84V276"/>
 
-  <rect x="72" y="64" width="6" height="230" rx="3" fill="url(#accent)"/>
-  <text x="108" y="86" fill="#57F2B2" font-family="Consolas, Menlo, monospace" font-size="16" font-weight="600" letter-spacing="2.4">AUTOMATION ENGINEER / PORTFOLIO 2026</text>
-  <text x="106" y="166" fill="#F4F9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="5">ZHOU J.</text>
-  <text x="108" y="215" fill="#8FDDE4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="600" letter-spacing="1.2">PYTHON AUTOMATION &amp; DATA SYSTEMS</text>
-  <text x="108" y="256" fill="#C8DAEA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Reliable workflows for data, integrations,</text>
-  <text x="108" y="286" fill="#C8DAEA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">and business operations.</text>
+  <text class="ink-soft" x="94" y="82" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="3.4">PROFILE / 2026</text>
+  <text class="ink" x="89" y="189" font-family="Arial, Helvetica, sans-serif" font-size="94" font-weight="700" letter-spacing="-4">ZHOU J.</text>
+  <text class="ink" x="94" y="229" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="600" letter-spacing="1.8">RELIABLE SYSTEMS. CLEAR EVIDENCE.</text>
+  <text class="ink-soft" x="94" y="268" font-family="'Noto Sans SC', 'Microsoft YaHei', sans-serif" font-size="16" font-weight="500" letter-spacing="5">求真 / 务实 / 开源</text>
 
-  <path d="M720 64V296" stroke="#31506B" stroke-dasharray="4 10"/>
-  <text x="772" y="86" fill="#6F92AD" font-family="Consolas, Menlo, monospace" font-size="15" letter-spacing="2">SYSTEM DESIGN / 01</text>
-  <path d="M800 136V254" stroke="url(#line)" stroke-width="2"/>
-  <circle cx="800" cy="138" r="8" fill="#07111F" stroke="#35D7E4" stroke-width="3"/>
-  <circle cx="800" cy="196" r="8" fill="#07111F" stroke="#35D7E4" stroke-width="3"/>
-  <circle cx="800" cy="254" r="8" fill="#07111F" stroke="#57F2B2" stroke-width="3"/>
-  <text x="836" y="144" fill="#F4F9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Structure inputs</text>
-  <text x="836" y="202" fill="#F4F9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Verify transitions</text>
-  <text x="836" y="260" fill="#F4F9FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Automate recovery</text>
-  <text x="836" y="169" fill="#7898B1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">schemas / contracts / provenance</text>
-  <text x="836" y="227" fill="#7898B1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">validation / idempotency / audit</text>
-  <text x="836" y="285" fill="#7898B1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">retries / replay / observability</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text class="accent" x="818" y="111" font-size="12" font-weight="700" letter-spacing="2">01</text>
+    <text class="ink" x="870" y="111" font-size="17" font-weight="600" letter-spacing="1.2">PYTHON SYSTEMS</text>
+    <path class="rule" d="M818 132H1188"/>
 
-  <rect x="0.5" y="0.5" width="1279" height="359" rx="23.5" stroke="#31506B" stroke-opacity="0.72"/>
+    <text class="accent" x="818" y="176" font-size="12" font-weight="700" letter-spacing="2">02</text>
+    <text class="ink" x="870" y="176" font-size="17" font-weight="600" letter-spacing="1.2">DATA WORKFLOWS</text>
+    <path class="rule" d="M818 197H1188"/>
+
+    <text class="accent" x="818" y="241" font-size="12" font-weight="700" letter-spacing="2">03</text>
+    <text class="ink" x="870" y="241" font-size="17" font-weight="600" letter-spacing="1.2">AGENT INTEGRATIONS</text>
+    <path class="rule" d="M818 262H1188"/>
+  </g>
+
+  <text class="ink-soft" x="94" y="335" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="600" letter-spacing="2.5">CHINESE DEVELOPER · OPEN-SOURCE CONTRIBUTOR</text>
+  <text class="accent" x="1216" y="335" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2">CN / ZJ</text>
 </svg>
