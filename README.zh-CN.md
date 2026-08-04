@@ -3,24 +3,30 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-header.svg?v=20260801-3" width="1280" alt="Zhou J. - Python 自动化、数据系统与集成" />
+  <img src="./assets/profile-header.svg?v=20260801-3" width="1280" alt="Zhou J. - 可靠 Python 系统、AI Agent 基础设施与数据工作流" />
 </p>
 
 <p align="center">
   <strong>为杂乱数据、脆弱集成与运营复杂度构建可靠系统。</strong><br />
-  <sub>Python 工程 · 可观测工作流 · 开源协作</sub>
+  <sub>Python 工程 · AI Agent 基础设施 · 可观测工作流</sub>
 </p>
 
 ## 开源协作 · Open Source
 
-持续参与 [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)，贡献方向涵盖 Provider 集成、Agent 运行稳定性与工具集性能。
+持续参与 AI Agent、Provider 集成、运行时可靠性与 TypeScript 平台工具相关的开源协作。
 
-- **[#76072](https://github.com/NousResearch/hermes-agent/pull/76072) · 工具集列表性能**<br />
-  在相邻 API 路径间复用请求级 subscription snapshot。`审核中`
 - **[#75561](https://github.com/NousResearch/hermes-agent/pull/75561) · Bedrock Mantle 会话稳定性**<br />
-  提升跨 Provider 多轮工具会话的稳定性。`审核中`
+  提升跨 Provider 多轮工具会话的稳定性。`开放`
 - **[#75480](https://github.com/NousResearch/hermes-agent/pull/75480) · Anthropic Transport 集成**<br />
-  将 ProviderProfile hooks 接入 transport 生命周期。`审核中`
+  将 ProviderProfile hooks 接入 transport 生命周期。`开放`
+- **[#9218](https://github.com/diegosouzapw/OmniRoute/pull/9218) · OmniRoute 模型可见性**<br />
+  在目录、别名与实时获取路径中统一过滤隐藏模型。`开放`
+- **[#756](https://github.com/HKUDS/DeepTutor/pull/756) · DeepTutor Obsidian Research 工具**<br />
+  将安全、只读的 Vault 检索能力接入 Research Pipeline。`开放`
+- **[#6088](https://github.com/koala73/worldmonitor/pull/6088) · WorldMonitor Collector 韧性**<br />
+  在运行时 fallback 中保持 timeout 与 cancellation 语义。`开放`
+
+**近期贡献：** [#78094](https://github.com/NousResearch/hermes-agent/pull/78094) 修复 Windows Updater Preflight 对超长虚拟环境进程命令行的处理。`开放`
 
 ## 代表作品 · Selected Work
 

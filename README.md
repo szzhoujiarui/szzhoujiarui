@@ -3,24 +3,30 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-header.svg?v=20260801-3" width="1280" alt="Zhou J. - Python automation, data systems, and integrations" />
+  <img src="./assets/profile-header.svg?v=20260801-3" width="1280" alt="Zhou J. - reliable Python systems, AI agent infrastructure, and data workflows" />
 </p>
 
 <p align="center">
   <strong>Reliable systems for messy data, fragile integrations, and operational complexity.</strong><br />
-  <sub>Python engineering · observable workflows · open-source collaboration</sub>
+  <sub>Python engineering · AI agent infrastructure · observable workflows</sub>
 </p>
 
 ## Open Source · 开源协作
 
-Active contributor to [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent), working across provider integration, agent runtime stability, and toolset performance.
+Contributing across AI agents, provider integrations, runtime reliability, and TypeScript platform tooling.
 
-- **[#76072](https://github.com/NousResearch/hermes-agent/pull/76072) · Toolset listing performance**<br />
-  Reuses request-local subscription snapshots across sibling API paths. `Under review`
 - **[#75561](https://github.com/NousResearch/hermes-agent/pull/75561) · Bedrock Mantle session stability**<br />
-  Stabilizes multi-turn tool sessions across provider boundaries. `Under review`
+  Stabilizes multi-turn tool sessions across provider boundaries. `Open`
 - **[#75480](https://github.com/NousResearch/hermes-agent/pull/75480) · Anthropic transport integration**<br />
-  Wires ProviderProfile hooks into the transport lifecycle. `Under review`
+  Wires ProviderProfile hooks into the transport lifecycle. `Open`
+- **[#9218](https://github.com/diegosouzapw/OmniRoute/pull/9218) · OmniRoute model visibility**<br />
+  Applies unified hidden-model filtering across catalog, alias, and live-fetch paths. `Open`
+- **[#756](https://github.com/HKUDS/DeepTutor/pull/756) · DeepTutor Obsidian research tools**<br />
+  Integrates secure, read-only vault retrieval into the research pipeline. `Open`
+- **[#6088](https://github.com/koala73/worldmonitor/pull/6088) · WorldMonitor collector resilience**<br />
+  Preserves timeout and cancellation behavior across runtime fallbacks. `Open`
+
+**Recent:** [#78094](https://github.com/NousResearch/hermes-agent/pull/78094) fixes Windows updater preflight handling for long virtual-environment process command lines. `Open`
 
 ## Selected Work · 代表作品
 
