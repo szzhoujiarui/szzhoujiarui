@@ -15,6 +15,8 @@
 
 持续参与 AI Agent、Provider 集成、运行时可靠性与 TypeScript 平台工具相关的开源协作。
 
+- **[#77522](https://github.com/NousResearch/hermes-agent/pull/77522) · Hermes Agent 工具集列表性能**<br />
+  消除 Web 与 API 列表路径中重复解析订阅能力的问题。[#76072](https://github.com/NousResearch/hermes-agent/pull/76072) 的两个提交均由维护者原样 cherry-pick，作者署名完整保留。`已合入上游`
 - **[#75561](https://github.com/NousResearch/hermes-agent/pull/75561) · Bedrock Mantle 会话稳定性**<br />
   提升跨 Provider 多轮工具会话的稳定性。`开放`
 - **[#75480](https://github.com/NousResearch/hermes-agent/pull/75480) · Anthropic Transport 集成**<br />

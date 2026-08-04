@@ -15,6 +15,8 @@
 
 Contributing across AI agents, provider integrations, runtime reliability, and TypeScript platform tooling.
 
+- **[#77522](https://github.com/NousResearch/hermes-agent/pull/77522) · Hermes Agent toolset listing performance**<br />
+  Eliminates repeated subscription-feature resolution across web and API listing paths. Both commits from [#76072](https://github.com/NousResearch/hermes-agent/pull/76072) were cherry-picked unchanged with authorship preserved. `Merged upstream`
 - **[#75561](https://github.com/NousResearch/hermes-agent/pull/75561) · Bedrock Mantle session stability**<br />
   Stabilizes multi-turn tool sessions across provider boundaries. `Open`
 - **[#75480](https://github.com/NousResearch/hermes-agent/pull/75480) · Anthropic transport integration**<br />
