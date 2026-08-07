@@ -13,22 +13,21 @@
 
 ## Open Source · 开源协作
 
-Contributing across AI agents, provider integrations, runtime reliability, and TypeScript platform tooling.
+Contributing across AI agents, provider integrations, runtime reliability, analytics, and TypeScript platform tooling.
 
-- **[#77522](https://github.com/NousResearch/hermes-agent/pull/77522) · Hermes Agent toolset listing performance**<br />
-  Eliminates repeated subscription-feature resolution across web and API listing paths. Both commits from [#76072](https://github.com/NousResearch/hermes-agent/pull/76072) were cherry-picked unchanged with authorship preserved. `Merged upstream`
-- **[#75561](https://github.com/NousResearch/hermes-agent/pull/75561) · Bedrock Mantle session stability**<br />
-  Stabilizes multi-turn tool sessions across provider boundaries. `Open`
-- **[#75480](https://github.com/NousResearch/hermes-agent/pull/75480) · Anthropic transport integration**<br />
-  Wires ProviderProfile hooks into the transport lifecycle. `Open`
-- **[#9218](https://github.com/diegosouzapw/OmniRoute/pull/9218) · OmniRoute model visibility**<br />
-  Applies unified hidden-model filtering across catalog, alias, and live-fetch paths. `Open`
-- **[#756](https://github.com/HKUDS/DeepTutor/pull/756) · DeepTutor Obsidian research tools**<br />
-  Integrates secure, read-only vault retrieval into the research pipeline. `Open`
-- **[#6088](https://github.com/koala73/worldmonitor/pull/6088) · WorldMonitor collector resilience**<br />
-  Preserves timeout and cancellation behavior across runtime fallbacks. `Open`
+**Merged upstream**
 
-**Recent:** [#78094](https://github.com/NousResearch/hermes-agent/pull/78094) fixes Windows updater preflight handling for long virtual-environment process command lines. `Open`
+- **[Apache Airflow #70937](https://github.com/apache/airflow/pull/70937) · Monaco Editor 0.56 compatibility** — restores public-export compatibility across Airflow's Monaco integration.
+- **[DeepTutor #753](https://github.com/HKUDS/DeepTutor/pull/753) · Optimistic edit refresh reliability** — resolves stale refresh races after document edits.
+- **[DeepTutor #756](https://github.com/HKUDS/DeepTutor/pull/756) · Read-only Obsidian research tools** — mounts secure vault retrieval tools into the research pipeline.
+- **[OmniRoute #9218](https://github.com/diegosouzapw/OmniRoute/pull/9218) · Model visibility consistency** — applies hidden-model filtering across catalog, alias, and live-fetch paths.
+- **[WorldMonitor #6088](https://github.com/koala73/worldmonitor/pull/6088) · Collector timeout resilience** — preserves timeout and cancellation behavior across runtime fallbacks.
+- **[Hermes Agent #77522](https://github.com/NousResearch/hermes-agent/pull/77522) · Toolset listing performance** — includes both commits from [#76072](https://github.com/NousResearch/hermes-agent/pull/76072), cherry-picked unchanged with authorship preserved.
+
+**Active reviews**
+
+- **Hermes CN:** [Desktop runtime downgrade #540](https://github.com/Eynzof/Hermes-CN-Desktop/pull/540) · [Windows runtime file locks #544](https://github.com/Eynzof/Hermes-CN-Desktop/pull/544) · [Frozen-runtime cron execution #134](https://github.com/Eynzof/Hermes-CN-Core/pull/134)
+- **Hermes Agent:** [Anthropic transport #75480](https://github.com/NousResearch/hermes-agent/pull/75480) · [Bedrock Mantle sessions #75561](https://github.com/NousResearch/hermes-agent/pull/75561) · [Desktop reactions config #77302](https://github.com/NousResearch/hermes-agent/pull/77302) · [Windows updater preflight #78094](https://github.com/NousResearch/hermes-agent/pull/78094) · [npm audit fixes #79184](https://github.com/NousResearch/hermes-agent/pull/79184) · [xAI search routing #79282](https://github.com/NousResearch/hermes-agent/pull/79282)
 
 ## Selected Work · 代表作品
 

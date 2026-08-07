@@ -13,22 +13,21 @@
 
 ## 开源协作 · Open Source
 
-持续参与 AI Agent、Provider 集成、运行时可靠性与 TypeScript 平台工具相关的开源协作。
+持续参与 AI Agent、Provider 集成、运行时可靠性、数据分析与 TypeScript 平台工具相关的开源协作。
 
-- **[#77522](https://github.com/NousResearch/hermes-agent/pull/77522) · Hermes Agent 工具集列表性能**<br />
-  消除 Web 与 API 列表路径中重复解析订阅能力的问题。[#76072](https://github.com/NousResearch/hermes-agent/pull/76072) 的两个提交均由维护者原样 cherry-pick，作者署名完整保留。`已合入上游`
-- **[#75561](https://github.com/NousResearch/hermes-agent/pull/75561) · Bedrock Mantle 会话稳定性**<br />
-  提升跨 Provider 多轮工具会话的稳定性。`开放`
-- **[#75480](https://github.com/NousResearch/hermes-agent/pull/75480) · Anthropic Transport 集成**<br />
-  将 ProviderProfile hooks 接入 transport 生命周期。`开放`
-- **[#9218](https://github.com/diegosouzapw/OmniRoute/pull/9218) · OmniRoute 模型可见性**<br />
-  在目录、别名与实时获取路径中统一过滤隐藏模型。`开放`
-- **[#756](https://github.com/HKUDS/DeepTutor/pull/756) · DeepTutor Obsidian Research 工具**<br />
-  将安全、只读的 Vault 检索能力接入 Research Pipeline。`开放`
-- **[#6088](https://github.com/koala73/worldmonitor/pull/6088) · WorldMonitor Collector 韧性**<br />
-  在运行时 fallback 中保持 timeout 与 cancellation 语义。`开放`
+**已合入上游**
 
-**近期贡献：** [#78094](https://github.com/NousResearch/hermes-agent/pull/78094) 修复 Windows Updater Preflight 对超长虚拟环境进程命令行的处理。`开放`
+- **[Apache Airflow #70937](https://github.com/apache/airflow/pull/70937) · Monaco Editor 0.56 兼容性** — 恢复 Airflow Monaco 集成对新版公共导出的兼容。
+- **[DeepTutor #753](https://github.com/HKUDS/DeepTutor/pull/753) · 乐观编辑刷新可靠性** — 修复文档编辑后的陈旧刷新竞态。
+- **[DeepTutor #756](https://github.com/HKUDS/DeepTutor/pull/756) · 只读 Obsidian Research 工具** — 将安全的 Vault 检索工具接入 Research Pipeline。
+- **[OmniRoute #9218](https://github.com/diegosouzapw/OmniRoute/pull/9218) · 模型可见性一致性** — 在目录、别名与实时获取路径中统一过滤隐藏模型。
+- **[WorldMonitor #6088](https://github.com/koala73/worldmonitor/pull/6088) · Collector 超时韧性** — 在运行时 fallback 中保持 timeout 与 cancellation 语义。
+- **[Hermes Agent #77522](https://github.com/NousResearch/hermes-agent/pull/77522) · 工具集列表性能** — 包含 [#76072](https://github.com/NousResearch/hermes-agent/pull/76072) 的两个提交，由维护者原样 cherry-pick 并完整保留作者署名。
+
+**评审中**
+
+- **Hermes CN：** [Desktop Runtime 防降级 #540](https://github.com/Eynzof/Hermes-CN-Desktop/pull/540) · [Windows Runtime 文件占用 #544](https://github.com/Eynzof/Hermes-CN-Desktop/pull/544) · [冻结 Runtime 执行 Cron #134](https://github.com/Eynzof/Hermes-CN-Core/pull/134)
+- **Hermes Agent：** [Anthropic Transport #75480](https://github.com/NousResearch/hermes-agent/pull/75480) · [Bedrock Mantle 会话 #75561](https://github.com/NousResearch/hermes-agent/pull/75561) · [Desktop Reactions 配置 #77302](https://github.com/NousResearch/hermes-agent/pull/77302) · [Windows Updater Preflight #78094](https://github.com/NousResearch/hermes-agent/pull/78094) · [npm Audit 修复 #79184](https://github.com/NousResearch/hermes-agent/pull/79184) · [xAI Search 路由 #79282](https://github.com/NousResearch/hermes-agent/pull/79282)
 
 ## 代表作品 · Selected Work
 
