@@ -24,26 +24,36 @@
 - **[WorldMonitor #6088](https://github.com/koala73/worldmonitor/pull/6088) · 修复旧版运行环境中的采集请求超时** — 确保 20 秒超时和用户取消在缺少新版 `AbortSignal` 接口时仍然生效。
 - **[Hermes Agent #77522](https://github.com/NousResearch/hermes-agent/pull/77522) · 减少工具列表的重复状态查询** — 每次列表请求只读取一次订阅状态；[#76072](https://github.com/NousResearch/hermes-agent/pull/76072) 的两个提交由维护者原样合入并保留作者署名。
 
-**评审中**
+**当前开放贡献**
 
 - **Hermes CN：** [防止桌面端安装包覆盖较新的 Runtime #540](https://github.com/Eynzof/Hermes-CN-Desktop/pull/540) · [修复 Windows 更新时 Runtime 文件被占用 #544](https://github.com/Eynzof/Hermes-CN-Desktop/pull/544) · [修复冻结 Runtime 无法执行定时 Python 脚本 #134](https://github.com/Eynzof/Hermes-CN-Core/pull/134)
-- **Hermes Agent：** [让 Anthropic 兼容接口正确应用模型服务配置 #75480](https://github.com/NousResearch/hermes-agent/pull/75480) · [修复 Bedrock Mantle 多轮工具调用冲突 #75561](https://github.com/NousResearch/hermes-agent/pull/75561) · [保存 Desktop 消息反应设置 #77302](https://github.com/NousResearch/hermes-agent/pull/77302) · [修复 Windows 更新程序误报 Runtime 正在使用 #78094](https://github.com/NousResearch/hermes-agent/pull/78094) · [修复 npm 高危依赖漏洞 #79184](https://github.com/NousResearch/hermes-agent/pull/79184) · [修复 xAI 搜索工具路由冲突 #79282](https://github.com/NousResearch/hermes-agent/pull/79282)
+- **Hermes Agent：** [让 Anthropic 兼容接口正确应用模型服务配置 #75480](https://github.com/NousResearch/hermes-agent/pull/75480) · [修复 Bedrock Mantle 多轮工具调用冲突 #75561](https://github.com/NousResearch/hermes-agent/pull/75561) · [保存 Desktop 消息反应设置 #77302](https://github.com/NousResearch/hermes-agent/pull/77302) · [修复 xAI 搜索工具路由冲突 #79282](https://github.com/NousResearch/hermes-agent/pull/79282) · [恢复带时间戳的 curator archive #83613](https://github.com/NousResearch/hermes-agent/pull/83613) · [校验 Webhook 投递目标 #84184](https://github.com/NousResearch/hermes-agent/pull/84184) · [识别 Slack app bot ID mention #85885](https://github.com/NousResearch/hermes-agent/pull/85885)
+
+**精选代码评审**
+
+- **Hermes Agent：** [为 Gateway channel directory 初始化增加硬超时边界 #79060](https://github.com/NousResearch/hermes-agent/pull/79060) · [评审 cron repeat 生命周期校验 #82495](https://github.com/NousResearch/hermes-agent/pull/82495) · [评审 binary detection 正确性 #82494](https://github.com/NousResearch/hermes-agent/pull/82494)
 
 ## 项目案例 · Selected Work
 
-### 01 / [WebhookOps Reliability Console](https://github.com/szzhoujiarui/webhookops-reliability-console)
+### 01 / [Portfolio Decision Workbench](https://github.com/szzhoujiarui/portfolio-decision-workbench)
+
+一个可复现的 Python 后端工程案例，覆盖韧性行情数据采集、数据源健康隔离、来源追踪、数据质量审计和契约优先的 FastAPI 接口。项目提供无需实时行情和凭据的离线演示、固定 fixture、SQLite 持久化、OpenAPI 契约校验，以及从 legacy Flask 路由向模块化服务迁移的完整路径。
+
+`Python` · `FastAPI` · `SQLite` · `Pydantic` · `pytest`
+
+### 02 / [WebhookOps Reliability Console](https://github.com/szzhoujiarui/webhookops-reliability-console)
 
 一个可以直接运行的 Webhook 处理演示。系统会验证请求签名、拦截重复事件，并在处理失败时自动重试；多次失败的事件会进入待处理状态，用户可以在控制台查看完整记录并手动重放。
 
 `Python` · `FastAPI` · `React` · `SQLite` · `Docker`
 
-### 02 / [Python Data Orchestration Lab](https://github.com/szzhoujiarui/python-data-orchestration-lab)
+### 03 / [Python Data Orchestration Lab](https://github.com/szzhoujiarui/python-data-orchestration-lab)
 
 将 Google Places 等不同来源的企业数据整理成统一格式，自动完成校验、去重和记录合并，再保存到 SQLite 或导出为 CSV、Google Sheets。项目提供无需外部账号即可运行的离线样例。
 
 `Python` · `Pydantic` · `SQLite` · `pandas` · `pytest`
 
-### 03 / [Lead Ops Automation](https://github.com/szzhoujiarui/lead-ops-automation)
+### 04 / [Lead Ops Automation](https://github.com/szzhoujiarui/lead-ops-automation)
 
 通过 n8n 自动校验、去重、评分和分流销售线索，再将处理结果发送到兼容 HubSpot 和 Slack 的接口。任务状态保存在 PostgreSQL 中，失败后支持自动重试和人工重放，并通过 25 项 Playwright 测试验证完整流程。
 

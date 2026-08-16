@@ -24,26 +24,36 @@ I contribute to AI agents, model-provider integrations, cross-platform runtimes,
 - **[WorldMonitor #6088](https://github.com/koala73/worldmonitor/pull/6088) · Preserve collector timeouts on older runtimes** — keeps the 20-second deadline and caller cancellation working when modern `AbortSignal` helpers are unavailable.
 - **[Hermes Agent #77522](https://github.com/NousResearch/hermes-agent/pull/77522) · Reduce repeated subscription lookups** — reuses one feature snapshot per toolset-list request; both commits from [#76072](https://github.com/NousResearch/hermes-agent/pull/76072) were cherry-picked unchanged with authorship preserved.
 
-**Active reviews**
+**Open contributions**
 
 - **Hermes CN:** [Prevent Desktop runtime downgrades #540](https://github.com/Eynzof/Hermes-CN-Desktop/pull/540) · [Handle locked runtime files on Windows #544](https://github.com/Eynzof/Hermes-CN-Desktop/pull/544) · [Run cron Python scripts in the frozen runtime #134](https://github.com/Eynzof/Hermes-CN-Core/pull/134)
-- **Hermes Agent:** [Apply provider hooks to the Anthropic transport #75480](https://github.com/NousResearch/hermes-agent/pull/75480) · [Stabilize Bedrock Mantle multi-turn sessions #75561](https://github.com/NousResearch/hermes-agent/pull/75561) · [Persist Desktop message reaction settings #77302](https://github.com/NousResearch/hermes-agent/pull/77302) · [Prevent false Windows updater blockers #78094](https://github.com/NousResearch/hermes-agent/pull/78094) · [Patch npm security vulnerabilities #79184](https://github.com/NousResearch/hermes-agent/pull/79184) · [Fix xAI web-search alias routing #79282](https://github.com/NousResearch/hermes-agent/pull/79282)
+- **Hermes Agent:** [Apply provider hooks to the Anthropic transport #75480](https://github.com/NousResearch/hermes-agent/pull/75480) · [Stabilize Bedrock Mantle multi-turn sessions #75561](https://github.com/NousResearch/hermes-agent/pull/75561) · [Persist Desktop message reaction settings #77302](https://github.com/NousResearch/hermes-agent/pull/77302) · [Fix xAI web-search alias routing #79282](https://github.com/NousResearch/hermes-agent/pull/79282) · [Restore timestamped curator archives #83613](https://github.com/NousResearch/hermes-agent/pull/83613) · [Validate webhook delivery targets #84184](https://github.com/NousResearch/hermes-agent/pull/84184) · [Recognize Slack app bot ID mentions #85885](https://github.com/NousResearch/hermes-agent/pull/85885)
+
+**Selected review work**
+
+- **Hermes Agent:** [Bound Gateway channel-directory initialization #79060](https://github.com/NousResearch/hermes-agent/pull/79060) · [Review cron repeat lifecycle validation #82495](https://github.com/NousResearch/hermes-agent/pull/82495) · [Review binary detection correctness #82494](https://github.com/NousResearch/hermes-agent/pull/82494)
 
 ## Selected Work · 代表作品
 
-### 01 / [WebhookOps Reliability Console](https://github.com/szzhoujiarui/webhookops-reliability-console)
+### 01 / [Portfolio Decision Workbench](https://github.com/szzhoujiarui/portfolio-decision-workbench)
+
+A reproducible Python backend case study for resilient market-data ingestion, provider health isolation, provenance-preserving delivery, data-quality audits, and contract-first FastAPI APIs. It includes a deterministic offline demo, committed fixtures, SQLite persistence, OpenAPI contract checks, and a documented migration path from legacy Flask routes.
+
+`Python` · `FastAPI` · `SQLite` · `Pydantic` · `pytest`
+
+### 02 / [WebhookOps Reliability Console](https://github.com/szzhoujiarui/webhookops-reliability-console)
 
 A runnable FastAPI and React demo that verifies signed webhooks, rejects duplicate events, retries failures, moves exhausted events to a dead-letter state, and supports manual replay with a complete audit history.
 
 `Python` · `FastAPI` · `React` · `SQLite` · `Docker`
 
-### 02 / [Python Data Orchestration Lab](https://github.com/szzhoujiarui/python-data-orchestration-lab)
+### 03 / [Python Data Orchestration Lab](https://github.com/szzhoujiarui/python-data-orchestration-lab)
 
 Collects business data through provider adapters, converts it to one validated record model, deduplicates and merges matching companies, then saves to SQLite or exports to CSV and Google Sheets. The offline sample runs without external credentials.
 
 `Python` · `Pydantic` · `SQLite` · `pandas` · `pytest`
 
-### 03 / [Lead Operations Automation](https://github.com/szzhoujiarui/lead-ops-automation)
+### 04 / [Lead Operations Automation](https://github.com/szzhoujiarui/lead-ops-automation)
 
 Validates, deduplicates, scores, and routes incoming leads through n8n. PostgreSQL-backed jobs support retries and manual replay, while 25 Playwright tests verify HubSpot- and Slack-compatible delivery.
 
