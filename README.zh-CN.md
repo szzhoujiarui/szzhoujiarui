@@ -17,6 +17,7 @@
 
 **已合入上游**
 
+- **[Hugging Face PEFT #3546](https://github.com/huggingface/peft/pull/3546) · 为 MetaMathQA 新增 bank-1024 VBLoRA 配置** — 提交可复现的 Llama 3.2 3B 实验配置，通过有边界的参数搜索提升 GSM8K 准确率，并记录 adapter 体积增长的取舍。
 - **[Apache Airflow #70937](https://github.com/apache/airflow/pull/70937) · 适配 Monaco Editor 0.56** — 改用新版公开接口，同时保留 Airflow 对 Python f-string 语法高亮的支持。
 - **[DeepTutor #753](https://github.com/HKUDS/DeepTutor/pull/753) · 修复文档保存后首次编辑失败** — 页面刷新后直接使用最新保存结果，避免旧状态影响第一次编辑。
 - **[DeepTutor #756](https://github.com/HKUDS/DeepTutor/pull/756) · 让研究流程直接读取 Obsidian 知识库** — 提供受限的搜索、笔记读取和目录浏览能力，无需依赖尚未建立的 RAG 索引。

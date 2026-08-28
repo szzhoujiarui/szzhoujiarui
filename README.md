@@ -17,6 +17,7 @@ I contribute to AI agents, model-provider integrations, cross-platform runtimes,
 
 **Merged upstream**
 
+- **[Hugging Face PEFT #3546](https://github.com/huggingface/peft/pull/3546) · Add a bank-1024 VBLoRA configuration for MetaMathQA** — contributes a reproducible Llama 3.2 3B experiment configuration selected through a bounded search that improved GSM8K accuracy while documenting the adapter-size trade-off.
 - **[Apache Airflow #70937](https://github.com/apache/airflow/pull/70937) · Support Monaco Editor 0.56** — moves Airflow's Monaco integration to public package exports while preserving its patched Python f-string highlighting.
 - **[DeepTutor #753](https://github.com/HKUDS/DeepTutor/pull/753) · Fix editing immediately after save** — uses the newly persisted message snapshot so a stale React state value cannot break the first edit.
 - **[DeepTutor #756](https://github.com/HKUDS/DeepTutor/pull/756) · Give research read-only access to Obsidian** — lets the research pipeline search, read, and list trusted vault content without mounting an unavailable RAG index.
